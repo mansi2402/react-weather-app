@@ -1,0 +1,96 @@
+*{
+  font-family: cursive;
+}
+
+.weatherBG{
+  background: url(imgs/background.jpg) no-repeat;
+  height: 50vh;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#city {
+  background: rgb(255, 255, 255);
+  color: rgb(33, 33, 33);
+  padding: 15px 25px;
+  font-size: 22px;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+}
+.heading{
+  color:linear-gradient(to bottom left, #553c9a, #ee4b2b);
+  font-size: 700;
+  
+}
+
+.btn, .btn-primary{
+  color: black ;
+  font-size: 20px;
+  background:  linear-gradient(0deg,rgb(9, 79, 255) 0%, rgb(151, 170, 255) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.267);
+  border-radius: 10px;
+}
+.btn:hover{
+  background: linear-gradient(0deg, rgb(9, 79, 255) 0%, rgb(151, 170, 255) 100%);
+  border: 1px solid grey;
+}
+
+.weatherResultBox{
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  background-color: rgba(250, 250, 250, 0.616);
+  border-bottom-right-radius: 20px !important;
+  box-shadow: 5px 5px 100px 40px rgb(217, 235, 247) !important;
+
+}
+.weatherResultBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%); /* Gradient for mirror effect */
+  transform: scaleY(-1); /* Flip vertically to create mirror effect */
+  pointer-events: none; /* Ignore pointer events for the pseudo-element */
+}
+
+.weatherResultBox {
+  opacity: 2;
+  transform: scale(0.8);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.weatherResultBox.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.weatherIcon{
+  margin: 2rem ;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px double rgb(166, 202, 202);
+  border-radius: 10px;
+}
+
+.weatherCity{
+  font-size: 35px;
+  color: black;
+}
+
+.weatherTemp{
+   font-size: 45px;
+   font-weight: 700;
+   color: rgb(0, 0, 0);
+   stroke-width: 5px;
+   stroke: black;
+}
