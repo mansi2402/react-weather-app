@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mansi2402/react-weather-app.git/static/css/main.cbb916c7.css",
-    "main.js": "/mansi2402/react-weather-app.git/static/js/main.1208e1c6.js",
-    "static/js/787.13d76ca7.chunk.js": "/mansi2402/react-weather-app.git/static/js/787.13d76ca7.chunk.js",
-    "static/media/background.jpg": "/mansi2402/react-weather-app.git/static/media/background.72201be256cbb3de42f2.jpg",
-    "index.html": "/mansi2402/react-weather-app.git/index.html",
-    "main.cbb916c7.css.map": "/mansi2402/react-weather-app.git/static/css/main.cbb916c7.css.map",
-    "main.1208e1c6.js.map": "/mansi2402/react-weather-app.git/static/js/main.1208e1c6.js.map",
-    "787.13d76ca7.chunk.js.map": "/mansi2402/react-weather-app.git/static/js/787.13d76ca7.chunk.js.map"
+    "main.css": "/react-weather-app/static/css/main.c07bad8c.css",
+    "main.js": "/react-weather-app/static/js/main.43edfd9f.js",
+    "static/js/787.13d76ca7.chunk.js": "/react-weather-app/static/js/787.13d76ca7.chunk.js",
+    "static/media/background.jpg": "/react-weather-app/static/media/background.72201be256cbb3de42f2.jpg",
+    "index.html": "/react-weather-app/index.html",
+    "main.c07bad8c.css.map": "/react-weather-app/static/css/main.c07bad8c.css.map",
+    "main.43edfd9f.js.map": "/react-weather-app/static/js/main.43edfd9f.js.map",
+    "787.13d76ca7.chunk.js.map": "/react-weather-app/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbb916c7.css",
-    "static/js/main.1208e1c6.js"
+    "static/css/main.c07bad8c.css",
+    "static/js/main.43edfd9f.js"
   ]
 }
